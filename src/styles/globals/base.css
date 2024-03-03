@@ -1,0 +1,30 @@
+@charset 'utf-8';
+@import url('./normalize.css');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root, html {
+  font-size: 62.5%;
+}
+
+html, body, root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+button {
+  outline: none;
+  background: transparent;
+}
+
+img {
+  max-width: 100%;
+}
